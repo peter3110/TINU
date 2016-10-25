@@ -21,7 +21,15 @@ class IndexLayout extends React.Component {
   render() {
     return (
       <div>
-        {this.renderSelections()}
+        <div className="col-xs-12">
+
+        </div>
+        <div className="col-xs-12">
+          {this.renderSelections()}
+        </div>
+        <div className="col-xs-12">
+
+        </div>
       </div>
     );
   }

@@ -6,10 +6,9 @@ const {
 
 class Selection extends React.Component {
   render() {
-    console.log(this.props)
     return (
-      <div className="selection">
-        {this.props.title}
+      <div className="col-xs-offset-4 col-xs-4 selection" role="button">
+        <div className="col-xs-12 selection-text">{this.props.title}</div>
       </div>
     );
   }
